@@ -178,15 +178,15 @@
 }
 
 #img01 {
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #img02 {
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #img03 {
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .container1 {
@@ -328,7 +328,7 @@ grid-row: 6/11;
     color: gray;
 }
 .container2 {
-    height: 100vh;
+    height:100vh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -353,6 +353,19 @@ grid-row: 6/11;
     font-weight: 600;
     margin-top: 20px;
     margin-left: 20px;
+}
+.people{
+
+    grid-column: 2/10;
+    grid-row: 7/11;
+    margin-top: 20px;
+}
+.people1{
+
+    background-image: url(./1725638720587.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .container3 {
     height: 100vh;
